@@ -18,7 +18,7 @@
 * Multiplication
   * One digit
   * Two digits
-  * Three or digits
+  * Three or more digits
   * Fractions
   * Decimals 
 * Division
@@ -26,6 +26,11 @@
   * Long division
   * Fractions
   * Decimals   
+* Decimals
+  * Addition
+  * Subtraction
+  * Multiplication
+  * Division
 * Fractions and Percentages
   * Addition
   * Subtraction
