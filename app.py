@@ -1,38 +1,38 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route("/")
 def home_page():
-    return "<h1>Home Page</h1>"
+    return render_template("home.html")
 
 @app.route("/addition")
 def addition_page():
-    return "<h1>Addition Page</h1>"
+    return render_template("addition.html")
 
 @app.route("/subtraction")
 def subtraction_page():
-    return "<h1>Subtraction Page</h1>"
+    return render_template("subtraction.html")
 
 @app.route("/multiplication")
 def multication_page():
-    return "<h1>Multiplication Page</h1>"
+    return render_template("multiplication.html")
 
 @app.route("/division")
 def division_page():
-    return "<h1>Division Page</h1>"
+    return render_template("division.html")
 
 @app.route("/placevalues")
 def place_values_page():
-    return "<h1>Place Values Page</h1>"
+    return render_template("place_values.html")
 
 @app.route("/decimals")
 def decimals_page():
-    return "<h1>Decimals Page</h1>"
+    return render_template("decimals.html")
 
 @app.route("/fractionsandpercentages")
 def fractions_percentages_page():
-    return "<h1>Fractions and Percentages Page</h1>"
+    return render_template("fractions.html")
 
 @app.route("/time")
 def time_page():
@@ -45,7 +45,7 @@ def money_page():
 if __name__ == "__main__":
 
     # To test on this computer only
-    app.run(debug=True)
+    #app.run(debug=True)
 
     # To test on another computer
-    #app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0')
