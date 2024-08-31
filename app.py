@@ -45,7 +45,7 @@ def money_page():
 if __name__ == "__main__":
 
     # To test on this computer only
-    #app.run(debug=True)
+    app.run(debug=True)
 
     # To test on another computer
-    app.run(debug=True, host='0.0.0.0')
+    #app.run(debug=True, host='0.0.0.0')
