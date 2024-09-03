@@ -1,7 +1,9 @@
 # Website
 
+## The purpose of this project is to learn HTML and CSS.
 ## A website that teaches elementary school math (grades 1-5)
 
+### As this project is for learning purposes, the web application is available locally and not hosted on a web service.
 ### Tentative Content
 * Addition
   * One digit
