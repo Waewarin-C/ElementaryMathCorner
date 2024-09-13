@@ -1,0 +1,15 @@
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #ccffcc;
+    font-family: "Aptos", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
