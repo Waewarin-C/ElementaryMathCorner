@@ -13,3 +13,24 @@ img {
     display: block;
     margin: auto;
 }
+
+table {
+    border: 1px solid;
+    border-radius: 20px;
+    border-spacing: 0px;
+}
+
+th {
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+
+td {
+    padding: 5px;
+    border-bottom: 1px solid;
+}
+
+table tr:last-child td:first-child {
+    border: none;
+    padding-bottom: 10px;
+}
