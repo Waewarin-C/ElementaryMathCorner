@@ -15,9 +15,16 @@ img {
 }
 
 table {
+    display: inline;
     border: 1px solid;
     border-radius: 20px;
     border-spacing: 0px;
+    text-align: center;
+    width: 10%;
+}
+
+tr:nth-child(even) {
+    background-color: white;
 }
 
 th {
