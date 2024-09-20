@@ -20,6 +20,7 @@ img {
     margin-left: 125px;
     margin-right: 125px;
     padding: 15px;
+    border-radius: 20px;
     background-color: white;
 }
 
@@ -30,15 +31,21 @@ table {
     text-align: center;
     margin: 15px;
     width: 15%;
+    overflow: hidden;
 }
 
 tr:nth-child(even) {
     background-color: white;
 }
 
+.table-headers {
+    background-radius: 20px;
+}
+
 th {
     padding: 10px;
     border-bottom: 1px solid;
+    color: white;
 }
 
 td {
@@ -49,4 +56,52 @@ td {
 table tr:last-child td:first-child {
     border: none;
     padding-bottom: 10px;
+}
+
+.one-table, .seven-table {
+    border-color: #00bfff;
+}
+
+.one-rows, .seven-rows {
+    background-color: #ccf2ff;
+}
+
+.two-table, .eight-table {
+    border-color: #32cd32;
+}
+
+.two-rows, .eight-rows {
+    background-color: #d6f5d6;
+}
+
+.three-table, .nine-table {
+    border-color: #ff1493;
+}
+
+.three-rows, .nine-rows {
+    background-color: #ffcce7;
+}
+
+.four-table, .ten-table {
+    border-color: #ff6600;
+}
+
+.four-rows, .ten-rows {
+    background-color: #ffe0cc;
+}
+
+.five-table, .eleven-table {
+    border-color: #a300cc;
+}
+
+.five-rows, .eleven-rows {
+    background-color: #f5ccff;
+}
+
+.six-table, .twelve-table {
+    border-color: #ffcc00;
+}
+
+.six-rows, .twelve-rows {
+    background-color: #fff0b3;
 }
