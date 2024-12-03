@@ -1,6 +1,4 @@
 body {
-    padding-left: 50px;
-    padding-right: 50px;
     font-family: "Aptos", sans-serif;
     background-color: #ccffcc;
 }
@@ -9,22 +7,69 @@ h1 {
     text-align: center;
 }
 
+.navigation {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.navigation a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navigation a.current_page {
+    background-color: red;
+}
+
+/* Make navigation responsive to smaller screen size */
+@media screen and (max-width: 1000px) {
+  .navigation a {
+    display: block;
+    float: none;
+    width: auto;
+    padding: 12px;
+  }
+}
+
+.content {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 img {
     display: block;
     margin: auto;
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
     border-radius: 20px;
+}
+
+/* Make images responsive to smaller screen size */
+@media screen and (max-width: 800px) {
+  img {
+    max-width: 100%;
+  }
 }
 
 .tables {
     display: flex;
     justify-content: center;
-    margin-left: 125px;
-    margin-right: 125px;
+    margin: auto;
     padding: 15px;
     border-radius: 20px;
     background-color: white;
+}
+
+/* Make table responsive to smaller screen size */
+@media screen and (max-width: 800px) {
+  .tables {
+    display: block;
+    margin: auto;
+  }
 }
 
 table {
@@ -35,6 +80,14 @@ table {
     margin: 15px;
     width: 15%;
     overflow: hidden;
+}
+
+/* Make tables responsive to smaller screen size */
+@media screen and (max-width: 800px) {
+  table {
+    width: 100%;
+    margin: 1px;
+  }
 }
 
 tr:nth-child(even) {
