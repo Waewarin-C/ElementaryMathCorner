@@ -46,6 +46,7 @@ img {
     max-width: 75%;
     height: auto;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px 1.5px #aaaaaa;
 }
 
 /* Make images responsive to smaller screen size */
@@ -62,6 +63,7 @@ img {
     padding: 15px;
     border-radius: 20px;
     background-color: white;
+    box-shadow: 5px 5px 5px 1.5px #aaaaaa;
 }
 
 /* Make table responsive to smaller screen size */
@@ -80,6 +82,7 @@ table {
     margin: 15px;
     width: 15%;
     overflow: hidden;
+    box-shadow: 2px 2px 5px -1.5px #aaaaaa;
 }
 
 /* Make tables responsive to smaller screen size */
