@@ -1,5 +1,5 @@
 body {
-    font-family: "Aptos", sans-serif;
+    font-family: "Aptos", sans-serif; /*Change font to trebuchet - look at css fonts*/
     background-color: #ccffcc;
 }
 
@@ -9,7 +9,7 @@ h1 {
 
 .navigation {
     overflow: hidden;
-    background-color: #333;
+    background-color: #373f49;
     border-radius: 20px;
 }
 
@@ -22,7 +22,12 @@ h1 {
 }
 
 .navigation a.current_page {
-    background-color: red;
+    background-color: #28a428;
+}
+
+.navigation a:hover {
+    background-color: #5bd75b;
+    color: black;
 }
 
 /* Make navigation responsive to smaller screen size */
