@@ -1,6 +1,14 @@
 body {
-    font-family: "Aptos", sans-serif; /*Change font to trebuchet - look at css fonts*/
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 110%;
     background-color: #ccffcc;
+}
+
+/* Make text responsive to smaller screen size */
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 100%;
+  }
 }
 
 h1 {
