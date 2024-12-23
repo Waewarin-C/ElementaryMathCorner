@@ -33,7 +33,7 @@ h1 {
     background-color: #28a428;
 }
 
-.navigation a:hover, .topnav:hover{
+.navigation a:hover, .topnav a:hover{
     background-color: #5bd75b;
     color: black;
 }
@@ -63,8 +63,13 @@ h1 {
     display: block;
 }
 
-.subnav a:hover {
+.topnav .subnav a:hover {
     background-color: #adebad;
+    color: black;
+}
+
+.subnav a.current_page {
+    color: white;
 }
 
 /* Make navigation responsive to smaller screen size */
