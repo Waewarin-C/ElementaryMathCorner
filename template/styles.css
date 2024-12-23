@@ -33,18 +33,59 @@ h1 {
     background-color: #28a428;
 }
 
-.navigation a:hover {
+.navigation a:hover, .topnav:hover{
     background-color: #5bd75b;
     color: black;
 }
 
+.topnav {
+    float: left;
+    overflow: hidden;
+}
+
+.subnav {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 1;
+    top: 149px;
+    background-color: #dcdcdc;
+}
+
+.subnav a {
+    float: none;
+    display: block;
+    text-align: left;
+    color: black;
+}
+
+.topnav:hover .subnav {
+    display: block;
+}
+
+.subnav a:hover {
+    background-color: #adebad;
+}
+
 /* Make navigation responsive to smaller screen size */
 @media screen and (max-width: 1000px) {
-  .navigation a {
+  .navigation a, .topnav {
     display: block;
     float: none;
     width: auto;
     padding: 12px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .topnav {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .topnav:hover .subnav {
+    display: none;
   }
 }
 
