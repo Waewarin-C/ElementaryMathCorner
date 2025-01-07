@@ -98,7 +98,7 @@ h1 {
 .content {
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/ /* Make only last content with bottom padding*/
 }
 
 img {
