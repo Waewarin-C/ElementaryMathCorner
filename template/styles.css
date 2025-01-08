@@ -117,21 +117,46 @@ img {
   }
 }
 
-.tables {
-    display: flex;
-    justify-content: center;
+.tables_group {
     margin: auto;
-    padding: 15px;
-    border-radius: 20px;
+    box-sizing: border-box;
     background-color: white;
+    padding: 15px;
+    width: 80%
+    border-radius: 20px;
     box-shadow: 5px 5px 5px 1.5px #aaaaaa;
+}
+
+.tables_group::after {
+    content: "";
+    clear: both;
+    display: block;
 }
 
 /* Make table responsive to smaller screen size */
 @media screen and (max-width: 800px) {
-  .tables {
-    display: block;
-    margin: auto;
+  .tables_group {
+    width: 100%;
+  }
+}
+
+.table_column {
+    box-sizing: border-box;
+    float: left;
+    width: 16.6%;
+    padding: 10px;
+}
+
+/* Make table responsive to smaller screen size */
+@media screen and (max-width: 800px) {
+  .table_column {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  .table_column {
+    width: 33.33%;
   }
 }
 
@@ -140,18 +165,9 @@ table {
     border-radius: 20px;
     border-spacing: 0px;
     text-align: center;
-    margin: 15px;
-    width: 15%;
+    width: 100%;
     overflow: hidden;
     box-shadow: 2px 2px 5px -1.5px #aaaaaa;
-}
-
-/* Make tables responsive to smaller screen size */
-@media screen and (max-width: 800px) {
-  table {
-    width: 100%;
-    margin: 1px;
-  }
 }
 
 tr:nth-child(even) {
