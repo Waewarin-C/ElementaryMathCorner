@@ -122,7 +122,7 @@ img {
     box-sizing: border-box;
     background-color: white;
     padding: 15px;
-    width: 80%
+    width: 80%;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 1.5px #aaaaaa;
 }
@@ -145,18 +145,19 @@ img {
     float: left;
     width: 16.6%;
     padding: 10px;
+    border-radius: 20px;
 }
 
 /* Make table responsive to smaller screen size */
 @media screen and (max-width: 800px) {
   .table_column {
-    width: 50%;
+    width: 33.33%;
   }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1200px) {
   .table_column {
-    width: 33.33%;
+    width: 25%;
   }
 }
 
