@@ -314,6 +314,10 @@ table tr:last-child td:first-child {
 }
 
 /* Styling for pagination */
+.prev-page-icon {
+    /*Add font size*/
+}
+
 .prev-page {
     display: inline-block;
     text-align: left;
@@ -322,6 +326,10 @@ table tr:last-child td:first-child {
 .prev-page a {
     text-decoration: none;
     color: black;
+}
+
+.next-page-icon {
+    /*Add font size*/
 }
 
 .next-page {
