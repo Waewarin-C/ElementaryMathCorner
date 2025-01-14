@@ -30,7 +30,7 @@ h1, h4 {
     padding: 20px;
 }
 
-.navigation a.current_page {
+.navigation a.current-page {
     background-color: #28a428;
 }
 
@@ -70,7 +70,7 @@ h1, h4 {
     color: black;
 }
 
-.subnav a.current_page {
+.subnav a.current-page {
     color: white;
 }
 
@@ -104,7 +104,7 @@ h1, h4 {
 }
 
 /* Styling for topics in the Home Page */
-.topics_group {
+.topics-group {
     margin: auto;
     box-sizing: border-box;
     border-radius: 20px;
@@ -114,7 +114,7 @@ h1, h4 {
     box-shadow: 5px 5px 5px 1.5px #aaaaaa;
 }
 
-.topics_group::after {
+.topics-group::after {
     content: "";
     clear: both;
     display: block;
@@ -122,19 +122,19 @@ h1, h4 {
 
 /* Make topics responsive to smaller screen size */
 @media screen and (max-width: 800px) {
-  .topics_group {
+  .topics-group {
     width: 100%;
   }
 }
 
-.topic_column {
+.topic-column {
     box-sizing: border-box;
     float: left;
     width: 25%;
     padding: 10px;
 }
 
-.topic_column a {
+.topic-column a {
     text-decoration: none;
     color: black;
 }
@@ -155,7 +155,7 @@ h1, h4 {
     box-shadow: 0px 5px 10px 1px #aaaaaa;
 }
 
-.topic_img {
+.topic-img {
     max-width: none;
     width: 100%;
     height: auto;
@@ -164,7 +164,7 @@ h1, h4 {
     box-shadow: none;
 }
 
-.topic_name {
+.topic-name {
     border: solid white;
     border-radius: 0px 0px 20px 20px;
 }
@@ -187,7 +187,7 @@ img {
 }
 
 /* Styling for tables */
-.tables_group {
+.tables-group {
     margin: auto;
     box-sizing: border-box;
     border-radius: 20px;
@@ -197,7 +197,7 @@ img {
     box-shadow: 5px 5px 5px 1.5px #aaaaaa;
 }
 
-.tables_group::after {
+.tables-group::after {
     content: "";
     clear: both;
     display: block;
@@ -205,12 +205,12 @@ img {
 
 /* Make table responsive to smaller screen size */
 @media screen and (max-width: 800px) {
-  .tables_group {
+  .tables-group {
     width: 100%;
   }
 }
 
-.table_column {
+.table-column {
     box-sizing: border-box;
     float: left;
     width: 16.6%;
@@ -220,13 +220,13 @@ img {
 
 /* Make table responsive to smaller screen size */
 @media screen and (max-width: 800px) {
-  .table_column {
+  .table-column {
     width: 33.33%;
   }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1200px) {
-  .table_column {
+  .table-column {
     width: 25%;
   }
 }
