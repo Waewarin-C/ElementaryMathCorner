@@ -312,3 +312,38 @@ table tr:last-child td:first-child {
 .six-rows, .twelve-rows {
     background-color: #f4e0d7;
 }
+
+/* Styling for pagination */
+.prev-page {
+    display: inline-block;
+    text-align: left;
+}
+
+.prev-page a {
+    text-decoration: none;
+    color: black;
+}
+
+.next-page {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+
+.next-page a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Make pagination responsive to smaller screen size */
+@media screen and (max-width: 800px) {
+  .prev-page {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .next-page {
+    width: 120px;
+  }
+}
