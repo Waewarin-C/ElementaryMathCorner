@@ -101,6 +101,7 @@ h1, h4 {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 20px;
+    border: solid red;
 }
 
 /* Styling for topics in the Home Page */
@@ -314,13 +315,18 @@ table tr:last-child td:first-child {
 }
 
 /* Styling for pagination */
+.prev-page .material-icons-round, .next-page .material-icons-round {
+    font-size: 48px;
+}
+
 .prev-page-icon {
-    /*Add font size*/
+    float: left;
 }
 
 .prev-page {
     display: inline-block;
     text-align: left;
+    border: solid;
 }
 
 .prev-page a {
@@ -329,13 +335,14 @@ table tr:last-child td:first-child {
 }
 
 .next-page-icon {
-    /*Add font size*/
+    float: right;
 }
 
 .next-page {
     display: inline-block;
     float: right;
     text-align: right;
+    border: solid;
 }
 
 .next-page a {
