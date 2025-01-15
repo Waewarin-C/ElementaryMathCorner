@@ -315,8 +315,9 @@ table tr:last-child td:first-child {
 }
 
 /* Styling for pagination */
-.prev-page .material-icons-round, .next-page .material-icons-round {
+.content .material-icons-round {
     font-size: 48px;
+    padding-top: 10px;
 }
 
 .prev-page-icon {
@@ -352,13 +353,20 @@ table tr:last-child td:first-child {
 
 /* Make pagination responsive to smaller screen size */
 @media screen and (max-width: 800px) {
+  .content .material-icons-round {
+    padding-top: 25px;
+  }
+}
+
+/* Make pagination responsive to smaller screen size */
+@media screen and (max-width: 800px) {
   .prev-page {
-    width: 120px;
+    width: 170px;
   }
 }
 
 @media screen and (max-width: 800px) {
   .next-page {
-    width: 120px;
+    width: 170px;
   }
 }
