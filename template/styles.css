@@ -14,6 +14,7 @@ body {
 
 h1, h4 {
     text-align: center;
+    border: solid green;
 }
 
 /* Styling for navigation */
@@ -101,7 +102,6 @@ h1, h4 {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 20px;
-    border: solid red;
 }
 
 /* Styling for topics in the Home Page */
@@ -316,18 +316,26 @@ table tr:last-child td:first-child {
 
 /* Styling for pagination */
 .content .material-icons-round {
-    font-size: 48px;
-    padding-top: 10px;
+    font-size: 54px;
+    /*padding-top: 7px;*/
+    color: black;
+}
+
+.content a: {
+    text-decoration: none;
+    color: black;
 }
 
 .prev-page-icon {
     float: left;
+    transform: scaleX(-1);
+    padding-left: 10px;
 }
 
 .prev-page {
     display: inline-block;
     text-align: left;
-    border: solid;
+    padding: 5px;
 }
 
 .prev-page a {
@@ -337,13 +345,14 @@ table tr:last-child td:first-child {
 
 .next-page-icon {
     float: right;
+    padding-left: 10px;
 }
 
 .next-page {
     display: inline-block;
     float: right;
     text-align: right;
-    border: solid;
+    padding: 5px;
 }
 
 .next-page a {
@@ -354,7 +363,7 @@ table tr:last-child td:first-child {
 /* Make pagination responsive to smaller screen size */
 @media screen and (max-width: 800px) {
   .content .material-icons-round {
-    padding-top: 25px;
+    padding-top: 15px;
   }
 }
 
