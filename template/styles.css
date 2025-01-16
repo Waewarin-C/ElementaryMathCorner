@@ -1,3 +1,4 @@
+/* Styling for the body */
 body {
     font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size: 110%;
@@ -15,6 +16,8 @@ body {
 h1, h4 {
     text-align: center;
 }
+
+/*******************************************************************/
 
 /* Styling for navigation */
 .navigation {
@@ -42,6 +45,23 @@ h1, h4 {
 .topnav {
     float: left;
     overflow: hidden;
+}
+
+/* Make navigation responsive to smaller screen size */
+@media screen and (max-width: 1000px) {
+  .navigation a, .topnav {
+    display: block;
+    float: none;
+    width: auto;
+    padding: 12px;
+  }
+}
+
+/* Make navigation responsive to smaller screen size */
+@media screen and (max-width: 1000px) {
+  .topnav {
+    padding: 0px;
+  }
 }
 
 .subnav {
@@ -76,25 +96,12 @@ h1, h4 {
 
 /* Make navigation responsive to smaller screen size */
 @media screen and (max-width: 1000px) {
-  .navigation a, .topnav {
-    display: block;
-    float: none;
-    width: auto;
-    padding: 12px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .topnav {
-    padding: 0px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
   .topnav:hover .subnav {
     display: none;
   }
 }
+
+/*******************************************************************/
 
 /* Styling for content */
 .content {
@@ -102,6 +109,8 @@ h1, h4 {
     padding-right: 50px;
     padding-bottom: 20px;
 }
+
+/*******************************************************************/
 
 /* Styling for topics in the Home Page */
 .topics-group {
@@ -169,6 +178,8 @@ h1, h4 {
     border-radius: 0px 0px 20px 20px;
 }
 
+/*******************************************************************/
+
 /* Styling for images*/
 img {
     display: block;
@@ -185,6 +196,8 @@ img {
     max-width: 100%;
   }
 }
+
+/*******************************************************************/
 
 /* Styling for tables */
 .tables-group {
@@ -313,6 +326,9 @@ table tr:last-child td:first-child {
     background-color: #f4e0d7;
 }
 
+
+/*******************************************************************/
+
 /* Styling for content and page guides divider */
 .divider {
     height: 5px;
@@ -320,10 +336,19 @@ table tr:last-child td:first-child {
     background-color: #373f49;
 }
 
-/* Styling for pagination */
+/*******************************************************************/
+
+/* Styling for page guides */
 .content .material-icons-round {
     font-size: 54px;
     color: black;
+}
+
+/* Make page guide icons responsive to smaller screen size */
+@media screen and (max-width: 800px) {
+  .content .material-icons-round {
+    padding-top: 15px;
+  }
 }
 
 .content a: {
@@ -348,6 +373,13 @@ table tr:last-child td:first-child {
     color: black;
 }
 
+/* Make previous page guide responsive to smaller screen size */
+@media screen and (max-width: 800px) {
+  .prev-page {
+    width: 170px;
+  }
+}
+
 .next-page-icon {
     float: right;
     padding-left: 10px;
@@ -365,20 +397,7 @@ table tr:last-child td:first-child {
     color: black;
 }
 
-/* Make pagination responsive to smaller screen size */
-@media screen and (max-width: 800px) {
-  .content .material-icons-round {
-    padding-top: 15px;
-  }
-}
-
-/* Make pagination responsive to smaller screen size */
-@media screen and (max-width: 800px) {
-  .prev-page {
-    width: 170px;
-  }
-}
-
+/* Make next page guide responsive to smaller screen size */
 @media screen and (max-width: 800px) {
   .next-page {
     width: 170px;
