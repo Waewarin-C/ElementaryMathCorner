@@ -48,7 +48,7 @@ h1, h4 {
 }
 
 /* Make navigation responsive to smaller screen size */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .navigation a, .topnav {
     display: block;
     float: none;
@@ -58,7 +58,7 @@ h1, h4 {
 }
 
 /* Make navigation responsive to smaller screen size */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .topnav {
     padding: 0px;
   }
@@ -95,7 +95,7 @@ h1, h4 {
 }
 
 /* Make navigation responsive to smaller screen size */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .topnav:hover .subnav {
     display: none;
   }
@@ -232,13 +232,19 @@ img {
 }
 
 /* Make table responsive to smaller screen size */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
+  .table-column {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
   .table-column {
     width: 33.33%;
   }
 }
 
-@media screen and (min-width: 800px) and (max-width: 1200px) {
+@media screen and (min-width: 700px) and (max-width: 1200px) {
   .table-column {
     width: 25%;
   }
@@ -366,6 +372,7 @@ table tr:last-child td:first-child {
     display: inline-block;
     text-align: left;
     padding: 5px;
+    border: solid;
 }
 
 .prev-page a {
@@ -374,7 +381,19 @@ table tr:last-child td:first-child {
 }
 
 /* Make previous page guide responsive to smaller screen size */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
+  .prev-page {
+    width: 70px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .prev-page {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
   .prev-page {
     width: 170px;
   }
@@ -390,6 +409,7 @@ table tr:last-child td:first-child {
     float: right;
     text-align: right;
     padding: 5px;
+    border: solid;
 }
 
 .next-page a {
@@ -398,7 +418,19 @@ table tr:last-child td:first-child {
 }
 
 /* Make next page guide responsive to smaller screen size */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
+  .next-page {
+    width: 70px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .next-page {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
   .next-page {
     width: 170px;
   }
