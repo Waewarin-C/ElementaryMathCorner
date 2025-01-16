@@ -14,7 +14,6 @@ body {
 
 h1, h4 {
     text-align: center;
-    border: solid green;
 }
 
 /* Styling for navigation */
@@ -314,10 +313,16 @@ table tr:last-child td:first-child {
     background-color: #f4e0d7;
 }
 
+/* Styling for content and page guides divider */
+.divider {
+    height: 5px;
+    margin-bottom: 20px;
+    background-color: #373f49;
+}
+
 /* Styling for pagination */
 .content .material-icons-round {
     font-size: 54px;
-    /*padding-top: 7px;*/
     color: black;
 }
 
