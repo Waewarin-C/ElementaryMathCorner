@@ -141,7 +141,6 @@ h1, h4 {
     float: left;
     width: 25%;
     padding: 10px;
-    border: solid;
 }
 
 .topic-column a {
@@ -159,7 +158,6 @@ h1, h4 {
 .topic {
     border-radius: 20px;
     box-shadow: 0px 5px 7px 1px #aaaaaa;
-    border: solid red;
 }
 
 .topic:hover {
@@ -178,7 +176,6 @@ h1, h4 {
 .topic-name {
     border: solid white;
     border-radius: 0px 0px 20px 20px;
-    border: solid green;
 }
 
 /*******************************************************************/
