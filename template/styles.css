@@ -348,90 +348,76 @@ table tr:last-child td:first-child {
 .content .material-icons-round {
     font-size: 54px;
     color: black;
+    padding-top: 5px;
 }
 
 /* Make page guide icons responsive to smaller screen size */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 520px) {
   .content .material-icons-round {
     padding-top: 15px;
   }
 }
 
-.content a: {
+@media screen and (min-width: 520px) and (max-width: 800px) {
+  .content .material-icons-round {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 975px) {
+  .content .material-icons-round {
+    padding-top: 25px;
+  }
+}
+
+.page-guide {
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+}
+
+.page-guide::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.page-guide-column {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .page-guide-column {
+    width: 100%;
+  }
+}
+
+.page-guide-text {
+    padding: 10px;
+}
+
+.prev-page {
+    text-align: left;
+}
+
+.prev-page a, .next-page a {
     text-decoration: none;
     color: black;
+    padding-top: 10px;
 }
 
 .prev-page-icon {
     float: left;
     transform: scaleX(-1);
-    padding-left: 10px;
 }
 
-.prev-page {
-    display: inline-block;
-    text-align: left;
-    padding: 5px;
-    border: solid;
-}
-
-.prev-page a {
-    text-decoration: none;
-    color: black;
-}
-
-/* Make previous page guide responsive to smaller screen size */
-@media screen and (max-width: 500px) {
-  .prev-page {
-    width: 70px;
-  }
-}
-
-@media screen and (min-width: 500px) and (max-width: 600px) {
-  .prev-page {
-    width: 100px;
-  }
-}
-
-@media screen and (min-width: 600px) and (max-width: 1000px) {
-  .prev-page {
-    width: 170px;
-  }
+.next-page {
+    text-align: right;
 }
 
 .next-page-icon {
     float: right;
-    padding-left: 10px;
 }
 
-.next-page {
-    display: inline-block;
-    float: right;
-    text-align: right;
-    padding: 5px;
-    border: solid;
-}
-
-.next-page a {
-    text-decoration: none;
-    color: black;
-}
-
-/* Make next page guide responsive to smaller screen size */
-@media screen and (max-width: 500px) {
-  .next-page {
-    width: 70px;
-  }
-}
-
-@media screen and (min-width: 500px) and (max-width: 600px) {
-  .next-page {
-    width: 100px;
-  }
-}
-
-@media screen and (min-width: 600px) and (max-width: 1000px) {
-  .next-page {
-    width: 170px;
-  }
-}
