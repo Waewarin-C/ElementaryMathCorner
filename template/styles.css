@@ -346,6 +346,11 @@ table tr:last-child td:first-child {
 /*******************************************************************/
 
 /* Styling for page guides */
+.content a {
+    text-decoration: none;
+    color: black;
+}
+
 .content .material-icons-round {
     font-size: 54px;
     color: black;
@@ -401,12 +406,6 @@ table tr:last-child td:first-child {
 
 .prev-page {
     text-align: left;
-}
-
-.prev-page a, .next-page a {
-    text-decoration: none;
-    color: black;
-    padding-top: 10px;
 }
 
 .prev-page-icon {
