@@ -1,45 +1,29 @@
-# Website
+# Elementary Math Corner
 
 ## The purpose of this project is to learn HTML and CSS.
-## A website that teaches elementary school math (grades 1-5)
+## A website that teaches elementary school math.
+### Even though this is a project for learning purposes, I also wanted to do something that could be a benefit to others if it was to be used. Thus, the content of the website.
+## This project is currently being worked on
 
-### As this project is for learning purposes, the web application is available locally and not hosted on a web service.
-### Tentative Content
+### Present Content
+
 * Addition
   * One digit
-  * Two digits
-  * Three or more digits
-  * Fractions
-  * Decimals
+  * Two or more digits
+  * Regrouping and carrying over
 * Subtraction
   * One digit
-  * Two digits
-  * Three or more digits
-  * Fractions
-  * Decimals   
+  * Two or more digits 
+  * Borrowing
 * Multiplication
   * One digit
-  * Two digits
-  * Three or more digits
-  * Fractions
-  * Decimals 
+  * Two or more digits
+  * Multiples Tips and Tricks
+  * Numbers with Ending Zeros
 * Division
-  * One digit
-  * Long division
-  * Fractions
-  * Decimals   
-* Decimals
-  * Addition
-  * Subtraction
-  * Multiplication
-  * Division
-* Fractions and Percentages
-  * Addition
-  * Subtraction
-  * Multiplication
-  * Division   
-* Place values
-* Money
-* Time
+  * General information
 
-***Multiple menus may lead to the same page***
+*Content will be regularly added*
+
+### Acknowledgements 
+The page guide icons used in the website are from Google Material Icons: https://fonts.googleapis.com/icon?family=Material+Icons+Round
