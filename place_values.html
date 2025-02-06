@@ -5,25 +5,69 @@
     <title>Place Values</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="template/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
 </head>
 <body>
     <header>
         <div>
-            <h1>Website Title</h1>
+            <h1>Elementary Math Corner</h1>
         </div>
     </header>
     <header>
         <div class="navigation">
             <a href="home.html">Home</a>
-            <a href="addition.html">Addition</a>
-            <a href="subtraction.html">Subtraction</a>
-            <a href="multiplication.html">Multiplication</a>
+            <a class="current-page" href="place_values.html">Place Values</a>
+            <div class="topnav">
+                <a href="addition.html">Addition</a>
+                    <div class="subnav">
+                        <a href="adding_using_columns.html">Adding Using Columns</a>
+                    </div>
+            </div>
+            <div class="topnav">
+                <a href="subtraction.html">Subtraction</a>
+                    <div class="subnav">
+                        <a href="subtracting_using_columns.html">Subtracting Using Columns</a>
+                    </div>
+            </div>
+            <div class="topnav">
+                <a href="multiplication.html">Multiplication</a>
+                    <div class="subnav">
+                        <a href="multiplying_using_columns.html">Multiplying Using Columns</a>
+                        <a href="multiplying_ending_zeros.html">Multiplying Numbers with Zeroes at the End</a>
+                    </div>
+            </div>
             <a href="division.html">Division</a>
-            <a href="placevalues.html">Place Values</a>
-            <a href="decimals.html">Decimals</a>
-            <a href="fractionsandpercentages.html">Fractions</a>
+            <!--<a href="decimals.html">Decimals</a>
+            <a href="fractionsandpercentages.html">Fractions</a>-->
         </div>
     </header>
-    <h1>Place Values Page</h1>
+    <div class="content">
+       <h1>Place Values</h1>
+    </div>
+    <div class="divider"></div>
+    <div class="content">
+        <div class="page-guide">
+            <a href="home.html">
+                <div class="page-guide-column prev-page">
+                    <span class="material-icons-round prev-page-icon">forward</span>
+                    <div class="page-guide-text">
+                        <span><b>Previously on the Elementary Math Corner...</b></span>
+                        <br>
+                        <span><b>Home</b></span>
+                    </div>
+                </div>
+            </a>
+            <a href="addition.html">
+                <div class="page-guide-column next-page">
+                    <span class="material-icons-round next-page-icon">forward</span>
+                    <div class="page-guide-text">
+                        <span><b>Up next on the Elementary Math Corner...</b></span>
+                        <br>
+                        <span><b>Addition</b></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
